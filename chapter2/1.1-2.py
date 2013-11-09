@@ -1,5 +1,8 @@
 #! /usr/bin/env python
-
+"""
+    Rewrite the insertion-sort procedure to sort into nonincreasing
+    insead of nondecreasing order.
+"""
 def dec_insertion_sort(A):
     for j in range(1, len(A)):
         key = A[j]
